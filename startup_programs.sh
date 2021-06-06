@@ -3,5 +3,5 @@
 udiskie -ans &
 mictray &
 steam -silent &
-discord &
+discord --start-minimized &
 polkit-dumb-agent
