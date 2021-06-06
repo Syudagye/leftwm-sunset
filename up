@@ -16,19 +16,12 @@ echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
 # Set background
 feh --bg-fill --no-fehbg $SCRIPTPATH/background.jpg
-#feh -z --no-fehbg --bg-fill /usr/share/backgrounds/
 
-# Conky
-~/.config/conky/start-conky.sh
+# Conky (not yet configured)
+#~/.config/conky/start-conky.sh
 
-index=0
-monitor="$(polybar -m | grep +0+0 | sed s/:.*// | tac)"
-leftwm-state -q -n -t $SCRIPTPATH/sizes.liquid | sed -r '/^\s*$/d' | while read -r width x y
-do
-  barname="mainbar$index"
-  monitor=$monitor offsetx=$x width=$width polybar -c $SCRIPTPATH/polybar.config $barname &> /dev/null &
-  let index=index+1
-done
+# Polybar
+polybar -c $SCRIPTPATH/polybar.ini mainbar &> /dev/null &
 
 # Start programs you want
 sh $SCRIPTPATH/startup_programs.sh
