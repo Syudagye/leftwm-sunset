@@ -17,3 +17,9 @@ Not yet lul
 ## Startup Programs
 
 You can define startup programs on [startup\_programs.sh](./startup_programs.sh).
+
+## TODO
+
+- Screenshots
+- Find a better quality version of the background (or an alternative idk)
+- Better workspace names (not related to this repo huh)
