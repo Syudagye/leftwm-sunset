@@ -2,7 +2,7 @@
 
 Derived from the [Soothe theme](https://github.com/b4skyx/leftwm-soothe)
 
-**This theme is not configured for mult-monitor setup, cuz i don't have one :v**
+**This theme is not configured for multi-monitor setup, cuz i don't have one :v**
 
 ## Screenshots
 
