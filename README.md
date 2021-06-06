@@ -6,7 +6,8 @@ Derived from the [Soothe theme](https://github.com/b4skyx/leftwm-soothe)
 
 ## Screenshots
 
-Not yet lul
+![](./screenshots/filled.png)
+![](./screenshots/empty.png)
 
 ## Dependencies
 
