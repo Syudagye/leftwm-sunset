@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
 # Down the last running theme
@@ -22,6 +22,3 @@ feh --bg-fill --no-fehbg $SCRIPTPATH/background.jpg
 
 # Polybar
 polybar -c $SCRIPTPATH/polybar.ini mainbar &> /dev/null &
-
-# Start programs you want
-sh $SCRIPTPATH/startup_programs.sh
