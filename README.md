@@ -1,8 +1,8 @@
 # Changed Sunset
 
-My attempt at making a LeftWM Theme !
+## My attempt at making a LeftWM Theme !
 
-**This theme is not configured for multi-monitor setup, cuz i don't have one :v**
+***This theme is not configured for multi-monitor setup, cuz i don't have one :v***
 
 ## Screenshots
 
