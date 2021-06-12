@@ -1,6 +1,6 @@
-# My personal LeftWM theme
+# Changed Sunset
 
-Derived from the [Soothe theme](https://github.com/b4skyx/leftwm-soothe)
+My attempt at making a LeftWM Theme !
 
 **This theme is not configured for multi-monitor setup, cuz i don't have one :v**
 
@@ -21,3 +21,5 @@ Derived from the [Soothe theme](https://github.com/b4skyx/leftwm-soothe)
 - Display current layout on the Polybar
 - Find a better quality version of the background (or an alternative idk)
 - Installation instructions (maybe)
+
+*ps: I could not found the artist for the background, so if you find him, contact me !*
