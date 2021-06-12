@@ -19,6 +19,7 @@ My attempt at making a LeftWM Theme !
 
 - Conky
 - Display current layout on the Polybar
+- Rofi theme
 - Find a better quality version of the background (or an alternative idk)
 - Installation instructions (maybe)
 
