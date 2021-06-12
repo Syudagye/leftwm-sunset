@@ -15,13 +15,9 @@ Derived from the [Soothe theme](https://github.com/b4skyx/leftwm-soothe)
 - picom
 - feh
 
-## Startup Programs
-
-You can define startup programs on [startup\_programs.sh](./startup_programs.sh).
-
 ## TODO
 
-- Screenshots
+- Conky
+- Display current layout on the Polybar
 - Find a better quality version of the background (or an alternative idk)
-- Better workspace names (not related to this repo huh)
-- Installation instructions
+- Installation instructions (maybe)
