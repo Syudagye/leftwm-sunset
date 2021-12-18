@@ -18,7 +18,11 @@ echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
 # Set background
 if [ -x "$(command -v feh)" ]; then
-    feh --bg-fill --no-fehbg $SCRIPTPATH/background.jpg
+    if [ -f "$SCRIPTPATH/background.jpg" ]; then
+        feh --bg-fill --no-fehbg -z $(head -n 1 "$SCRIPTPATH/bg-dir")
+    else
+        feh --bg-fill --no-fehbg $SCRIPTPATH/background.jpg
+    fi
 fi
 
 # Conky (not yet configured)
