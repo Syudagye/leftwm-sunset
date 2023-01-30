@@ -18,7 +18,7 @@ leftwm-command "LoadTheme $SCRIPTPATH/theme.ron"
 
 # Set background
 if [ -x "$(command -v feh)" ]; then
-    if [ -f "$SCRIPTPATH/background.jpg" ]; then
+    if [ -f "$SCRIPTPATH/bd-dir" ]; then
         feh --bg-fill --no-fehbg -z $(head -n 1 "$SCRIPTPATH/bg-dir")
     else
         feh --bg-fill --no-fehbg $SCRIPTPATH/background.jpg
